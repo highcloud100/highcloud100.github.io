@@ -94,7 +94,7 @@ render_with_liquid: false
 <p><img src="https://t1.daumcdn.net/cfile/tistory/99C90F375F6367BA16?original" alt=""></p>
 <ol>
 <li>printf를 하면 라이브러리로 달려간다.</li>
-<li>라이브러리에서 system call을 부름 ( write(2) )</li>
+<li>라이브러리에서 system call wrapper 함수를 부름 ( write(2) )</li>
 </ol>
 <p><img src="https://t1.daumcdn.net/cfile/tistory/9920F24B5F6367BA22?original" alt=""></p>
 <ul>
