@@ -63,7 +63,7 @@
 <script defer src="{{ script | relative_url }}"></script>
 
 {% if page.math %}
-  <!-- MathJax -->
+  <!-- MathJax
   <script>
   /* see: <https://docs.mathjax.org/en/latest/options/input/tex.html#tex-options> */
   MathJax = {
@@ -81,7 +81,20 @@
   </script>
   <script src="{{ site.data.assets[origin].polyfill.js | relative_url }}"></script>
   <script id="MathJax-script" async src="{{ site.data.assets[origin].mathjax.js | relative_url }}">
-  </script>
+  </script> -->
+  <script>
+    renderMathInElement(
+        document.body,
+        {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "\\[", right: "\\]", display: true},
+                {left: "$", right: "$", display: false},
+                {left: "\\(", right: "\\)", display: false}
+            ]
+        }
+    );
+</script>
 {% endif %}
 
 <!-- commons -->
