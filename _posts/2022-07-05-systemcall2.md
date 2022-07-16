@@ -114,7 +114,7 @@ render_with_liquid: false
 <p>getppid( ) 시스템 콜은 x86_64 아키텍처에서 다음과 같이 호출된다.</p>
 </li>
 </ul>
-<pre class=" language-assembly"><code class="prism  language-assembly">mov $0x6e, %eax // 시스템 콜 번호를 eax 레지스터에 대입
+<pre class=" language-yaml"><code class="prism  language-yaml">mov $0x6e<span class="token punctuation">,</span> %eax // 시스템 콜 번호를 eax 레지스터에 대입
 syscall
 </code></pre>
 <ul>
