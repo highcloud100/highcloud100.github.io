@@ -1,9 +1,9 @@
 ---
-title: System call with Linux
+title: System Call with linux
 author: highcloud
-date: 2022-07-15 13:00:00 +0900
+date: 2022-07-05 16:19:00 +0900
 categories: [CS, OS]
-tags: [os, cs, summer]
+tags: [os, cs, summer, 실습과 그림으로 배우는 리눅스 구조]
 render_with_liquid: false
 ---
 
