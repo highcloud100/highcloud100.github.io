@@ -475,5 +475,10 @@ init을 부모로 삼는다. init은 주기적은 wait 요청으로 고아를 �
 <blockquote>
 <p>물론 커널 프로세스는 일반 프로세스의 큐로 삽입되지 않는다.</p>
 </blockquote>
+<h2 id="룰">룰</h2>
+<ul>
+<li>짧은 작업에 우선권이 있다.</li>
+<li>입출력 관련 프로세스에 우선권을 준다.</li>
+</ul>
 <p><img src="https://user-images.githubusercontent.com/80192345/179147936-08e42e2e-8d61-40ad-9e2a-1b9883327f99.png" alt=""></p>
 
