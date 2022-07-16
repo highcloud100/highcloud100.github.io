@@ -1,5 +1,5 @@
 ---
-title: Schedule
+title: System call with Linux
 author: highcloud
 date: 2022-07-15 13:00:00 +0900
 categories: [CS, OS]
