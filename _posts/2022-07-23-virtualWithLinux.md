@@ -52,7 +52,7 @@ sar -r 1
 
 > sysctl 의 'vm.panic_on_oom' 파라미터의 기본 값을 변경해 프로세스가 아닌 시스템을 강제 종료하는 방법도 있다.
 
-![](https://user-images.githubusercontent.com/80192345/180595819-449ee8f7-4994-4b37-8863-5d4b100c31d4.png)
+![](https://user-images.githubusercontent.com/80192345/180595819-449ee8f7-4994-4b37-8863-5d4b100c31d4.png =400x)
 
 ## 단순 메모리 할당
 ---
