@@ -1,7 +1,7 @@
 ---
 title: Memory management with linux
 author: highcloud
-date: 2022-07-23 15:20:00 +0900
+date: 2022-07-23 19:30:00 +0900
 categories: [CS, OS]
 tags: [os, cs, summer, 실습과 그림으로 배우는 리눅스 구조]
 render_with_liquid: false
