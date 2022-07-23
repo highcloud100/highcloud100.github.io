@@ -29,7 +29,7 @@ free
 		- free 필드 값과 메모리가 부족하면 해제되는 커널 내의 메모리 영역 사이즈를 더한 값이다. 
 	- swap : swap area의 크기이다.
 
-![](https://user-images.githubusercontent.com/80192345/180595520-d18a49ff-8613-4184-adbb-dc01d4160b66.png =500x)
+![](https://user-images.githubusercontent.com/80192345/180595520-d18a49ff-8613-4184-adbb-dc01d4160b66.png )
 
 - 다음 명령어를 통해 메모리 관련 통계 정보를 얻을 수 있다.
 
@@ -37,7 +37,7 @@ free
 sar -r 1
 ```
 
-![](https://user-images.githubusercontent.com/80192345/180595568-7d194b1b-1197-44c2-bd40-6d3c3740c871.png =500x)
+![](https://user-images.githubusercontent.com/80192345/180595568-7d194b1b-1197-44c2-bd40-6d3c3740c871.png )
 
 ## 메모리 부족
 ---
@@ -52,7 +52,7 @@ sar -r 1
 
 > sysctl 의 'vm.panic_on_oom' 파라미터의 기본 값을 변경해 프로세스가 아닌 시스템을 강제 종료하는 방법도 있다.
 
-![](https://user-images.githubusercontent.com/80192345/180595819-449ee8f7-4994-4b37-8863-5d4b100c31d4.png =400x)
+![](https://user-images.githubusercontent.com/80192345/180595819-449ee8f7-4994-4b37-8863-5d4b100c31d4.png )
 
 ## 단순 메모리 할당
 ---
@@ -101,7 +101,7 @@ int main(void){
 }
 ```
 
-![](https://user-images.githubusercontent.com/80192345/180598135-6d25b503-ff9e-4b7f-b377-b706ce861eea.png =500x)
+![](https://user-images.githubusercontent.com/80192345/180598135-6d25b503-ff9e-4b7f-b377-b706ce861eea.png )
 
 
 ## 메모리 할당
@@ -170,7 +170,7 @@ int main(void){
 }
 ```
 
-![](https://user-images.githubusercontent.com/80192345/180598780-e22915d8-b810-407e-9e86-49268c956893.png =600x)
+![](https://user-images.githubusercontent.com/80192345/180598780-e22915d8-b810-407e-9e86-49268c956893.png )
 
 - mmap( ) 함수는 리눅스 커널에 새로운 메모리를 요구하는 시스템 콜을 호출한다.
 - system( ) 함수는 첫 파라미터에 지정된 명령어를 리눅스 시스템에서 실행한다.
