@@ -3,7 +3,7 @@ title: Process Description and Control 1
 author: highcloud
 date: 2023-04-04  17:44:54 +0800
 categories: [ CS, CSE3206_OS ]
-tags: [os, 3-1]
+tags: [os]
 render_with_liquid: false
 ---
 
@@ -118,8 +118,7 @@ os가 프로세스를 컨트롤하고 관리하기 위한 정보들
 - Not running state를 Ready와 Blocked로 나눔
   - Blocked에 있는 프로세스들은 event를 받으면 Ready 상태로 이동함
 <figure>
-    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211221191700/5stae.PNG
-">
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211221191700/5stae.PNG">
     <figcaption style="text-align: center">geeksforgeeks</figcaption>
 </figure>
 
@@ -137,7 +136,6 @@ os가 프로세스를 컨트롤하고 관리하기 위한 정보들
 - 메인메모리의 프로세스를 디스크로 욺겨야 할 상황이 있다. 
 - blocked, ready 상태에서 디스크로 옮겨지면 suspend 상태가 된다. 
 <figure>
-    <img src="https://d2vlcm61l7u1fs.cloudfront.net/media%2F28b%2F28bf9cb9-cd26-42f3-b007-09757e5da940%2FphpZ0uG64.png
-">
+    <img src="https://d2vlcm61l7u1fs.cloudfront.net/media%2F28b%2F28bf9cb9-cd26-42f3-b007-09757e5da940%2FphpZ0uG64.png">
     <figcaption style="text-align: center">chegg</figcaption>
 </figure>
