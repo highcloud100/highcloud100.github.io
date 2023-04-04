@@ -1,7 +1,7 @@
 ---
 title: Process Description and Control 1
 author: highcloud
-date: 2023-04-04  17:44:54 +0800
+date: 2023-04-04  17:44:54 +0900
 categories: [ CS, CSE3206_OS ]
 tags: [os]
 render_with_liquid: false
