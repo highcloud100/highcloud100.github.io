@@ -1,6 +1,7 @@
 ---
 title: Chain_replication
 author: highcloud100
+math: true
 date: 2023-08-28 16:01:12 +0900
 categories: [ mit6.5840 , Distributed_Systems ]
 tags: [chain_replication , Distributed_Systems]
@@ -30,4 +31,3 @@ $$
 
 ## Storage service interface 
 
-![](/assets/img/Pasted%20image%2020230828201123.png)
