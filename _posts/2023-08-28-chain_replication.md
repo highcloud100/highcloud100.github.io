@@ -29,3 +29,4 @@ $$\text{Strong consistency} \propto {1 \over \text{System throughput or availabi
 
 ![img](https://github.com/highcloud100/img_set/assets/80192345/fce50abf-3def-4dc2-800c-48ed48bbb17f)
 
+![[Pasted image 20230828200235.png]]
