@@ -19,7 +19,9 @@ https://pdos.csail.mit.edu/6.824/papers/cr-osdi04.pdf
   - large-scale storage service are not incompatible with high throughput and availability.
   - ex) GFS declined to support strong consistency
 
-$$\text{Strong consistency} \propto {1 \over \text{System throughput or availability}}$$
+$$
+\text{Strong consistency} \propto {1 \over \text{System throughput or availability}}
+$$
 
 - new chain replication
   - coordinating fail-stop servers
@@ -28,4 +30,4 @@ $$\text{Strong consistency} \propto {1 \over \text{System throughput or availabi
 
 ## Storage service interface 
 
-![](Pasted%20image%2020230828201123.png)
+![](/assets/img/Pasted%20image%2020230828201123.png)
