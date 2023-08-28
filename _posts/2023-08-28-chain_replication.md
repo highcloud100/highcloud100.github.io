@@ -18,6 +18,7 @@ https://pdos.csail.mit.edu/6.824/papers/cr-osdi04.pdf
 - Consistency guarantees also can be crucial but ...
   - large-scale storage service are not incompatible with high throughput and availability.
   - ex) GFS declined to support strong consistency
+
 $$\text{Strong consistency} \propto {1 \over \text{System throughput or availability}}$$
 
 - new chain replication
@@ -27,6 +28,5 @@ $$\text{Strong consistency} \propto {1 \over \text{System throughput or availabi
 
 ## Storage service interface 
 
-![img](https://github.com/highcloud100/img_set/assets/80192345/fce50abf-3def-4dc2-800c-48ed48bbb17f)
 
 ![[Pasted image 20230828200235.png]]
