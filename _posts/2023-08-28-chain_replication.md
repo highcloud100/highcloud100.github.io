@@ -28,5 +28,4 @@ $$\text{Strong consistency} \propto {1 \over \text{System throughput or availabi
 
 ## Storage service interface 
 
-
-![[Pasted image 20230828200235.png]]
+![](Pasted%20image%2020230828201123.png)
