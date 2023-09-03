@@ -116,7 +116,7 @@ Improcess Requests Invariant
 $$\text{Hist}^i_{objID} = \text{Hist}^j_{objID} \oplus  \text{Sent}_i$$
 - Thus, the Update Propagation Invariant will be maintained
 
-![](../assets/img/Pasted%20image%2020230829134527.png)
+![](/assets/img/Pasted%20image%2020230829134527.png)
 
 
 ### Lecture note
