@@ -51,7 +51,7 @@ $$
 - So we assume that at most t - 1 of the servers replicating an object fail concurrently
 
 - Server composition
-	- ![](../assets/img/Pasted%20image%2020230829091459.png)
+	- ![](/assets/img/Pasted%20image%2020230829091459.png)
 
 - **Reply Generation** :  All replies are generated and sent by the TAIL
 - **Query Processing** : Each query request is directed to the TAIL, processed atomically
@@ -88,7 +88,7 @@ $$\text{Hist}^j_{objID} \le \text{Hist}^i_{objID}$$
 - for server labeled i and j such that $i <= j$ 
 	- i is a predecessor of j in the chain
 	- $\text{Hist}^j_{objID}$ is prefix of $\text{Hist}^i_{objID}$
- 	- ![](../assets/img/Pasted%20image%2020230829131431.png)
+ 	- ![](/assets/img/Pasted%20image%2020230829131431.png)
 
 #### Failure of the Head
 
