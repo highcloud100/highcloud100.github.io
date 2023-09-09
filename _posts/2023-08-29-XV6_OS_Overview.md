@@ -1,9 +1,15 @@
 ---
-title: 2023-08-29
+title: XV6 OS Overview
 author: highcloud100
 date: 2023-08-29 22:42:00 +0900
-categories: [ mit6.1810 , OS, xv6 ]
-tags: [OS , xv6, mit6.1810]
+categories:
+  - mit6.1810
+  - OS
+  - xv6
+tags:
+  - OS
+  - xv6
+  - mit6.1810
 render_with_liquid: false
 ---
 
