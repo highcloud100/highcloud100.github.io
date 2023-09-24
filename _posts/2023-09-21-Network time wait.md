@@ -1,9 +1,13 @@
 ---
-title: 2023-09-21
+title: Network time wait
 author: highcloud100
 date: 2023-09-21 22:13:00 +0900
-categories: [ mit6.5840 , Distributed_Systems ]
-tags: [chain_replication , Distributed_Systems]
+categories:
+  - CS
+  - network
+tags:
+  - time_wait
+  - socket
 render_with_liquid: false
 ---
 https://tech.kakao.com/2016/04/21/closewait-timewait/
