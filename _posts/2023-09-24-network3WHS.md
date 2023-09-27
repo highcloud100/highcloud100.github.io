@@ -32,7 +32,7 @@ render_with_liquid: false
 		- 2. ack을 받으면 accept이 sleep하다 깨는 것인가?
 			-  즉 큐가 비어있으면 sleep하는 것이 아닌, ack을 받은 연결 요청이 없을 때 sleep하는 것인가?
 
-![|500](/assets/img/Pasted%20image%2020230925171027.png)
+![](/assets/img/Pasted%20image%2020230925171027.png)
 
 - 이에 리눅스 커널 코드를 찾아보았다. 
 	- 다만 이해가 가지 않았다. 
@@ -55,17 +55,17 @@ render_with_liquid: false
 	- 이를 커널 코드에서 찾기 위해 다시 들여다 봤다. 
 	- 근데 syn queue는 보이지 않았다. 
 
-![https://levelup.gitconnected.com/deep-dive-into-tcp-connection-establishment-process-f6cfb7b4e8e1|600x600](/assets/img/Pasted%20image%2020230925172250.png)
+![](/assets/img/Pasted%20image%2020230925172250.png)
 
 - [다음 블로그](https://levelup.gitconnected.com/deep-dive-into-tcp-connection-establishment-process-f6cfb7b4e8e1)를 보며 코드를 봤는데 정리가 잘되어 있는 것 같았다. 
 	- 다만 아직 syn queue ( request queue )에 대한 설명이 이해가 안 갔다. 
 	- ehash와 qlen으로 큐의 역할을 대체한다는데 ... ?  ?? ? ?   ??
 
-![|400](../assets/img/Pasted%20image%2020230925172809.png)
+![](/assets/img/Pasted%20image%2020230925172809.png)
 
 - [스택 오버 플로우](https://stackoverflow.com/questions/63232891/confusion-about-syn-queue-and-accept-queue)나와 같이 혼란에 빠진 의문의 사람을 찾았다. 
 
-![|400](/assets/img/Pasted%20image%2020230925172904.png)
+![](/assets/img/Pasted%20image%2020230925172904.png)
 
 - 그렇다.
 	- ehash에 request들을 저장하고, qlen으로 이들의 크기를 관리한다.
