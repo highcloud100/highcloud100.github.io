@@ -52,18 +52,16 @@ reference : Tcp/IP Protocol Suite/Forouzan, Behrouz A.
 - some implementations don't allow the shrinking of the send window
 	- so the receiver needs to keep the following relationship
 
-$$
-	\text{new ackNO} +  \text{new rwnd} \ge \text{last ackNO} +  \text{last rwnd}
-$$
+$$\text{new ackNO} +  \text{new rwnd} \ge \text{last ackNO} +  \text{last rwnd}$$
 
 - so does not allow the right wall ofr the send window to move to the left
 	- the left side of the inequality represents theh new position of the right wall
 	- the right side shows the old position of the right wall
 
 - if you violate this mandate, it causes the following problem
-$$
-	210 \text{ (new ack) } + 4 \text{ (new rwnd) } < 206 \text{ (last ack) } + 12 \text{ (last rwnd) }
-$$
+
+$$210 \text{ (new ack) } + 4 \text{ (new rwnd) } < 206 \text{ (last ack) } + 12 \text{ (last rwnd) }$$
+
 ![](/assets/img/Pasted%20image%2020230930202149.png)
 
 > ackNo = 216 seems to be typo
