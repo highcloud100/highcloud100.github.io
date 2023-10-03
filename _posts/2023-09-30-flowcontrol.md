@@ -10,6 +10,7 @@ tags:
   - network
   - tcp
 render_with_liquid: false
+math: true
 ---
 reference : Tcp/IP Protocol Suite/Forouzan, Behrouz A.
 # Flow Control
