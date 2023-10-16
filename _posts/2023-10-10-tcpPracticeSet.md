@@ -1,5 +1,5 @@
 ---
-title: McGraw-Hill - tcp practice set
+title: McGraw Hill tcp practice set
 author: highcloud100
 date: 2023-10-10 19:58:00 +0900
 categories:
