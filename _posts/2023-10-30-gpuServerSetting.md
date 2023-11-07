@@ -46,7 +46,7 @@ python -m ipykernel install --user 이름 --display-name "주피터에 보일 �
 
 이후 실행
 ```
-jupyter-notebook --no-browser --ip=<165.246.***.***> --port=<port number>
+jupyter-notebook --no-browser --ip=<165.***.***.***> --port=<port number>
 ```
 
 or jupyter-lab
