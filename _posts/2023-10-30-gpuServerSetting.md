@@ -7,14 +7,14 @@ categories:
   - AI
 tags: 
 math: true
-mermaid: true
+mermaid: false
 render_with_liquid: false
 ---
 ---
 
 
 이후 실행
-```shell
+```bash
 jupyter-notebook --no-browser --ip=<165.***.***.***> --port=<port number>
 ```
 
