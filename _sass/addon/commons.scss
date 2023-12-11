@@ -2,6 +2,10 @@
   The common styles
 */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,200;0,300;0,700;1,200;1,700&display=swap');
+
+
 html {
   @media (prefers-color-scheme: light) {
     &:not([data-mode]),
@@ -33,7 +37,7 @@ body {
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'Victor Mono', monospace;
 }
 
 /* --- Typography --- */
