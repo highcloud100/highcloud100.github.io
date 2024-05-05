@@ -17,7 +17,7 @@ render_with_liquid: false
 
 ## Improving two-mode algorithm via probabilistic selection for solving satisfiability problem
 
-![[assets/img/Pasted image 20231218133813.png]]
+![](/assets/img/Pasted%20image%2020231218133813.png)
 
 - **Sattime** : i C, Li Y. Satisfying versus falsifying in local search for satisfiability. In: Proceedings of the 15th International Conference on Theory and Applications of Satisfiability Testing–SAT 2012, Trento, Italy, 2012, 477-478.
 - **dimetheus** : https://scholar.google.com/scholar_lookup?title=Sat%20solving%20with%20message%20passing&author=O.%20Gableske&publication_year=2016
