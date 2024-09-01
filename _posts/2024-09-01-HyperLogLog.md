@@ -22,7 +22,7 @@ https://15445.courses.cs.cmu.edu/fall2024/project0/
 test 업데이트와 동시에 task2도 추가되었는데, primer의 HLL 구현을 비스무리하게 만드는 것이다. 
 다만 이번에도 test case 병크를 터트려놔서 머리를 박았다.
 
-![](assets/img/Pasted%20image%2020240901233012.png)
+![](/assets/img/Pasted%20image%2020240901233012.png)
 
 구현이 깔끔하지는 않은 것 같다.
 배열에 접근할 때 인덱스마다 락을 주면 좋을 거 같은데, 배열이 상당이 커서 mutex 범위를 정해야 할 거 같다.
@@ -47,7 +47,7 @@ set의 cardinality를 구하는 문제이다.
 hash의 결과로 bit pattern을 뽑아낸다. 이후 오른쪽으로부터, 0이 연속으로 몇 개 나왔는지 센다. 
 모든 input에 대해 $p(x_i)$(연속된 0의 개수)을 구하면, cardinality를 $2^{max(p(x_1), p(x_2), ... p(x_M))}$ 로 예측할 수 있다.  
 
-![](assets/img/Pasted%20image%2020240901230153.png)
+![](/assets/img/Pasted%20image%2020240901230153.png)
 
 이렇게 예측하는 이유는 직관적으로 설명해보면 다음과 같다. 
 k개의 연속된 0이 나올 확률은 $1/2^k$ 이다. 
@@ -66,7 +66,7 @@ maximum 값만 유지한다. (연속된 0이 32개까지 일 때, 5비트만 유
 
 추정을 여러 번 시도한다. 이후 이들의 평균 값을 구한다.
 
-![](assets/img/Pasted%20image%2020240901231534.png)
+![](/assets/img/Pasted%20image%2020240901231534.png)
 
 이를 위해 독립된 hash함수가 필요하다. (다른 결과를 뱉어내는)
 하지만 이 경우 computationally expensive하다. 
@@ -75,7 +75,7 @@ maximum 값만 유지한다. (연속된 0이 32개까지 일 때, 5비트만 유
 n개의 독립된 추정을 구하기 위해, n개의 bucket 배열을 만든다.  
 bit pattern의 앞 부분을 bucket을 indexing하는데 사용한다. 
 
-![](assets/img/Pasted%20image%2020240901231526.png)
+![](/assets/img/Pasted%20image%2020240901231526.png)
 
 이 방법은 정확도 손실 없이  m개의 hash를 사용할 computing을 줄여준다.
 이 절차를 stochastic averaging이라고 한다. 
