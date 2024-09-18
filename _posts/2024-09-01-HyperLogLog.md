@@ -126,7 +126,7 @@ bucket과 overflow entries다.
 예로 길이가 32라면, bucket 하나의 크기가 4비트이기에, 하위 4비트를 저장한다. 
 이후 앞의 3비트는 overflow entries에 저장된다. 
 
-![](assets/img/Pasted%20image%2020240902111559.png)
+![](/assets/img/Pasted%20image%2020240902111559.png)
 
 이러면 조금이나 메모리를 더 아낄 수 있다. 
 주의할 점은 위의 방법은 저장하는 방법이다. 기존의 업데이트 방법이(max)나 비교하는 값은 HLL 그대로이다.  즉 값을 업데이트할 때는 overflow entries와 buckets을 합쳐 복원해야한다. 
