@@ -3,8 +3,7 @@ title: gpu 서버 세팅
 author: highcloud100
 date: 2023-10-30 22:38:00 +0900
 categories:
-  - life
-  - AI
+  - tools
 tags: 
 math: true
 mermaid: false

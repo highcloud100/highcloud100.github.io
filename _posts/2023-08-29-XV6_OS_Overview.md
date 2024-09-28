@@ -4,12 +4,10 @@ author: highcloud100
 date: 2023-08-29 22:42:00 +0900
 categories:
   - mit6.1810
-  - OS
   - xv6
 tags:
   - os
   - xv6
-  - mit6.1810
 render_with_liquid: false
 ---
 
